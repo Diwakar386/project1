@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Video Player</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+    <div class="video-container">
+        <video id="videoPlayer" controls>
+            <source id="videoSource" src="costa.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="controls">
+            <label for="qualitySelector">Quality:</label>
+            <select id="qualitySelector">
+                <option value="costa.mp4">320p</option>
+                <option value="costa.mp4">480p</option>
+                <option value="costa.mp4" selected>720p</option>
+                <option value="costa.mp4">1080p</option>
+            </select>
+        </div>
+    </div>
+    <script src="project1.js"></script>
+</body>
+</html>
